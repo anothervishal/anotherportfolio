@@ -178,7 +178,7 @@ h5 {
 ==================================================*/
 
 .box-header {
-    position: absolute;
+    position: sticky;
     top: 0;
     left: 0;
     background: rgba(255, 255, 255, 0.95);
@@ -230,6 +230,7 @@ h5 {
 }
 
 .box-primary-nav-trigger {
+    
     position: absolute;
     right: 0;
     top: 0;
