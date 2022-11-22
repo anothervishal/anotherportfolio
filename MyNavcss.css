@@ -26,22 +26,28 @@ a {
 
 .navbar {
     
-    overflow: hidden;
-    background-color: #333;
+    /* overflow: hidden;
+    background-color: #333; */
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */  
     /* right: 0%;
      */
+     left: 0;
+     
+
+     z-index:1; /*Add this*/
   
-    /* padding-left: 0%;
-    padding-right: 0%; */
     display: flex;
     /* flex-direction: row; */
     background-color: rgb(255, 255, 255);
+    box-shadow:
+    0 10px 10px rgba(0, 0, 0, 0.05);
+
     justify-content: flex-end;
     align-items: center;
-    padding: 3rem 2rem;
+    padding: 1.5rem 4rem;
+    
 }
 
 .hamburger {
@@ -89,11 +95,10 @@ a {
 
 .box-logo {
     position: fixed;
-    left : 0;
-    padding-left: 10;
-    padding-top: 10;
+    left : 3%;
+  
     display: block;
-    padding: px;
+    
 }
 
 @media only screen and (max-width: 768px) {
@@ -102,7 +107,7 @@ a {
         left: -100%;
         top: 5rem;
         flex-direction: column;
-        /* background-color: #fff; */
+        background-color: #fff;
         width: 100%;
         border-radius: 10px;
         text-align: center;
